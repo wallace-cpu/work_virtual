@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: #ffc0e7;
+}
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+.logo {
+  padding: 30px;
+}
+.logo h2 {
+  font-size: 35px;
+}
+span {
+  font-size: 60px;
+  color: white; /* cor do preenchimento */
+  -webkit-text-stroke: 2px hsl(328, 100%, 54%); /* contorno rosa */
+}
+.menu {
+  padding: 30px;
+}
+.menu ul {
+    display: flex;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu a {
+    text-decoration: none;
+    margin-left: 50px;
+    background-color: blueviolet;
+    padding: 19px;
+    color: aliceblue;
+    border-radius: 20px;
+    border: none;
+
+}
+a:hover{
+    background-color: deeppink;
+
+}
+.container {
+    display: block;
+    position: relative;
+    height: 80vh;
+}
+.text {
+    padding-top: 50px;
+    margin-left: 50px;
+}
+h1 {
+    margin-left: 50px;
+    font-size: 50px;
+    
+}
+p {
+    line-height: 30px;
+    width: 550px;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.button {
+    margin-top: 40px;
+    margin-left: 80px;
+   
+}
+.button button{
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 35px;
+}
+      
+.fa-solid{
+    margin-left: 40px;
+    font-size: 35px;
+}
+
+.img_secundario {
+    margin-top: -70px;
+    margin-left: 500px;
+    gap: 20px;
+    
+}
+.oculos_secundario{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    gap: 100px;
+}
+.imagem_pai {
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    right: -50px;
+    top: 100px;
+    width: 500px;
+    height: 500px
+    
+}
+.imagem_filha{
+    position: absolute;
+    right: -60px;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+    z-index: -5;
+}
+.footer{
+   margin-top: 50px;
+   margin-left: 40px;
+
+}
+.fa-location-dot{
+    margin-right: -50px;
+    font-size: 18px;
+    color: blueviolet;
+}
+.fa-phone-volume{
+    margin-right: -50px;
+    font-size: 18px;
+    color: blueviolet;
+}
+.fa-envelope{
+    margin-right: -50px;
+    font-size: 18px;
+    color: blueviolet;
+}
+.footer .btn{
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(11, 38, 235);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    transform: scale(1.8);
+    transition: ease-in 0.5;
+}
+.btn:hover{
+    text-transform: uppercase;
+    background-color: rgba(110, 64, 4, 0.685);
+    
+}
